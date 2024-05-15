@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante braseria</title>
+</head>
+<body>
+    <h1>menú del restaurante andante</h1>
+    <table>
+         <thead>
+        <tr>
+           <th>Plato</th>        
+           <th>Descripcion</th>
+           <th>Precio</th>
+        </tr>
+         </thead>
+        <tbody>
+        <tr> 
+             <td>CARILLERA BROSEADA</td>
+             <td> Carne braseada con crema de coliflor, papas buchan y salsa de su cocción. </td>
+             <td>11.500</td>  
+        </tr>
+        <tr>
+             <td>ÑOQUIS DE ARROZ ESTILO COREANO</td>
+             <td>con dashi de hongos, verdeo, cauchasy hongos frescos, furikake.</td>
+             <td>11.500</td>
+        </tr>
+        <tr>    
+             <td>OJO DE BIFE</td>
+             <td>Papin adndino, cilantro y dip de mayonesa acevichada.</td>
+             <td>22.000</td>
+        </tr>
+        <tr>
+             <td> PESCA DEL DIA</td>
+             <td>Pesca blanca con aceite de huacatay, crema de leche. puerro, cebolla y choclo.</td>
+             <td>12.800</td>
+        </tr>
+        <tr>  
+             <td>RABIOLES DE CONEJO CONFITADO</td>
+             <td>Manteca de salvia y tomillo, y crocantes de nueces trituradas.</td>
+             <td>11.600</td>
+        </tr>
+        <tr>  
+            <td>CULIRGIONES BICOLOR</td>
+            <td>pasta de espinaca y remolacha, relleno de queso azulperas glaseadas con laqueado de de cerveza y miel, y castañas ahumadas.</td>
+            <td>11.200</td>
+        </tr>
+        </tbody>
+    </table>
+    <h2>Formulaeio De Reserva</h2>
+    
+    <form action="#">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <label for="personas">Cantidad de personas:</label>
+        <input type="number" id="personas" name="personas" min="1" required>
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora" required>
+<br>
+        <label for="comentarios">Comentarios (opcional):</label>
+        <textarea id="comentarios" name="comentarios"></textarea>
+
+        <button type="submit">Enviar reserva</button>
+    </form>
+
+
+</body>
+</html>
